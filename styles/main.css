@@ -1,3 +1,7 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
 /* custom property */
 :root {
 	--accent-color: #800000;  /* could also be coded #800 */
@@ -42,6 +46,27 @@ header {
 /* the styles for the main content */
 main {
 	clear: left;
+	& p {
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
+	& ul {
+		padding-top: .5em;
+		padding-bottom: .5em;
+		padding-left: 2em;
+	}
+	& h1 {
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
+	& h2 {
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
+	& h3 {
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
 }
 
 /* the styles for the footer */
