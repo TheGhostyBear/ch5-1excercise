@@ -13,7 +13,7 @@ body {
     font-size: 100%;
 	width: 80%;
 	margin: auto;
-	border: solid, 2px, var(--accent-color);
+	border: solid 2px var(--accent-color);
 }
 a:hover, a:focus{
 	font-style: italic;
@@ -21,8 +21,8 @@ a:hover, a:focus{
 }
 h1 {
 	font-size: 150%;
-	border-top: solid, 2px, var(--accent-color);
-	border-bottom: solid, 2px, var(--accent-color);
+	border-top: solid 2px var(--accent-color);
+	border-bottom: solid 2px var(--accent-color);
 }
 h2 {
 	font-size: 130%;
@@ -34,7 +34,7 @@ h3 {
 
 /* the styles for the header */
 header {
-	border-bottom: solid, 2px, var(--accent-color);
+	border-bottom: solid 2px var(--accent-color);
 	& h2 {
 		font-size: 175%;
 		padding-bottom: 0%;
@@ -56,8 +56,8 @@ header {
 }
 /* the styles for the main content */
 main {
-	border-top: solid, 2px, var(--accent-color);
-	border-bottom: solid, 2px, var(--accent-color);
+	border-top: solid 2px var(--accent-color);
+	border-bottom: solid 2px var(--accent-color);
 	clear: left;
 	& p {
 		padding-top: .5em;
@@ -84,7 +84,7 @@ main {
 	padding-left: 1em;
 	padding-bottom: 1em;
 	& img {
-		border: double, 4px, var(--accent-color), rounded;
+		border: double 4px var(--accent-color) rounded;
 	}
 }
 
@@ -97,7 +97,7 @@ blockquote {
 footer {
 	& p {
 		text-align: center;
-		font: white;
+		color: white;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
