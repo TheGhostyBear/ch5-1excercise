@@ -84,7 +84,8 @@ main {
 	padding-left: 1em;
 	padding-bottom: 1em;
 	& img {
-		border: double 4px var(--accent-color) rounded;
+		border: double 4px var(--accent-color);
+		border-radius: 5px;
 	}
 }
 
